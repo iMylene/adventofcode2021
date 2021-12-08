@@ -1,0 +1,1 @@
+import sys; counter = print(sum([1 for line in [ x.split(" | ")[1].strip("\n").split() for x in sys.stdin.readlines() ] for pattern in line if len(pattern) in [2, 4, 3, 7]]))
